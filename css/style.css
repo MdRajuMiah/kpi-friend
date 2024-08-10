@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3FEB8;
+    width: 100%;
+}
+header marquee{
+    padding: 18px;
+    background: #E3A5C7;
+    font-size: 25px;
+}
+.imgg{
+    width: 80%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tem-secton h2{
+    text-align: center;
+    padding: 40px 40px;
+}
+.main-column{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 30px;
+  padding: 0 40px;
+}
+.flex-column img{
+    width: 100%;
+    height: 60%;
+
+    
+}
+.flex-column{
+    background: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.flex-column:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+
